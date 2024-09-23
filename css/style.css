@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    background-color: rgb(190, 220, 247);
+    color: black;
+}
+
+.form-section{
+    text-align:right;
+    text-emphasis: 1rem;
+    text-decoration: double;
+}
+header{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: x-large;
+}
+
+h1{
+    text-align:center;
+    margin-top: 1 rem;  
+}
+h2{
+    color:rgb(21, 86, 21);
+    font-size: small;
+    margin-left: 1rem;
+}
+h3{
+    background-color: cadetblue;
+    color: black;
+    font-size: x-large;
+    width: 70%;
+}
+#picture{
+    width: 8%;
+    border:rgb(199, 243, 207) solid 0.1rem;
+    margin-left:46%;
+
+}
+.dividCo{
+    background-color: rgb(191, 180, 180);
+    border:#fff 2px solid ;
+    width: 90%;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+@media (min-width:450px) {
+    body{
+        background-color:rgb(58, 139, 125);
+        color: darkblue;
+    }
+
+    
+}
+
+@media (min-width:600px) {
+    body{
+        background-color: rgb(243, 231, 238);
+        color: cadetblue;
+    }
+    
+}
