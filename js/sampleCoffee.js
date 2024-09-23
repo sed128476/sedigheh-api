@@ -31,7 +31,7 @@ async function hotcoffee(cofee){
          let complex = `<div class="dividCo" > <h1> ${cc.title} </h1>`;
          complex += `<img src="${cc.image}" alt="a image of coffee" id="picture">  <br> <h2>ingredients</h2> <ul>  `;
 
-         for ( let j=1; j < cc.ingredients.length; j++){
+         for ( let j=0; j < cc.ingredients.length; j++){
            complex += `<li> ${cc.ingredients[j]} </li>`;
          };
          complex += ` <br> </ul>`;
