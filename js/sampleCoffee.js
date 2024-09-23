@@ -46,8 +46,16 @@ async function hotcoffee(cofee){
 
 }
 
+
+function hideAllMessages() {
+    sectionCofeees.innerText = "";
+     
+    }
+  
+
 form.addEventListener("submit" , event =>  {
     event.preventDefault();
+    hideAllMessages();
     console.log(event.target.search.value);
     let kindcofee = event.target.search.value;
     console.log(kindcofee);
